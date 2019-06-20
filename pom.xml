@@ -6,7 +6,7 @@
     <version>1.2</version>
     <packaging>pom</packaging>
     <name>gameoflife</name>
-    <url>https://github.com/laasya9849/game-of-life</url>
+    <url>https://github.com/wakaleo/game-of-life</url>
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,21 +21,19 @@
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
 
-
-
-
-  <scm>
+    <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
 	
-	<repositories>
-<repository>
+	 <repositories>
+    <repository>
       <id>maven-group</id>
       <url>http://localhost:8081/repository/maven-public/</url>
     </repository>
   </repositories>
+  
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
@@ -46,7 +44,7 @@
       <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
-
+  
     <build>
         <plugins>
             <plugin>
@@ -256,9 +254,13 @@
                             <!--</dependency>-->
                         <!--</dependencies>-->
                         <!--<configuration>-->
+						<!--hai there-->
                             <!--<configLocation>custom-checkstyle.xml</configLocation>-->
                         <!--</configuration>-->
                     <!--</plugin>-->
+					<!--hi i am-->
+					<!--hello im-->
+					<!--my name is ishaq-->
 
                     <!-- PMD -->
                     <plugin>
