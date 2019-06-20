@@ -274,7 +274,7 @@
                             <failurePriority>2</failurePriority>
                         </configuration>
                     </plugin>
-<!------hai----------->
+
                     <!-- FINDBUGS -->
                     <plugin>
                         <artifactId>findbugs-maven-plugin</artifactId>
