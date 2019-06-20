@@ -20,8 +20,18 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
-<repositories>
-    <repository>
+
+
+
+
+  <scm>
+        <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
+        <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
+        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
+    </scm>
+	
+	<repositories>
+<repository>
       <id>maven-group</id>
       <url>http://localhost:8081/repository/maven-public/</url>
     </repository>
@@ -37,14 +47,6 @@
     </repository>
   </distributionManagement>
 
-
-
-
-  <scm>
-        <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
-    </scm>
     <build>
         <plugins>
             <plugin>
